@@ -10,6 +10,7 @@ def verify_pass(password, stored_pass):
 
 
 stored_hash = "SilverStar"
+
 print("=======================\nWelcome\n=======================\n")
 while True:
     menu = input("1.Hash the password\n2.verify password\n3.Exit\nSelect one: ")
